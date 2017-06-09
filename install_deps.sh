@@ -7,7 +7,7 @@ apt-get install -y libssl-dev libffi-dev python-dev build-essential
 git clone https://github.com/lgandx/Responder.git
 git clone https://github.com/CoreSecurity/impacket.git
 git clone https://github.com/byt3bl33d3r/CrackMapExec.git
-git clone https://github.com/byt3bl33d3r/Empire.git
+git clone -b dev https://github.com/EmpireProject/Empire.git
 git clone https://github.com/byt3bl33d3r/DeathStar.git
 
 # Install misc pip requirements not in setup.py filles
